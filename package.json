@@ -1,0 +1,20 @@
+{
+  "name": "exfil-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "curl -sS -X POST https://httpbin.org/post || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ironsh/exfil-demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ironsh/exfil-demo/issues"
+  },
+  "homepage": "https://github.com/ironsh/exfil-demo#readme",
+  "description": ""
+}
